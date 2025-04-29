@@ -11,7 +11,7 @@ export default function Home() {
     <main className="min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
       <div className="max-w-2xl mx-auto px-4 py-20">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold">John Doe</h1>
+          <h1 className="text-3xl font-bold">Ioannis Moustakas</h1>
           {mounted && (
             <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
@@ -24,7 +24,7 @@ export default function Home() {
 
         <section className="space-y-6">
           <p className="text-lg">
-            👋 Hi, I'm a developer building thoughtful software. This site will become my portfolio and blog.
+            👋 Hi there. I am a data scientist/bioinformmatician. This site will become my portfolio and blog.
           </p>
 
           <div>
